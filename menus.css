@@ -1,319 +1,319 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 body {
-    margin: 0%;
+  margin: 0%;
 }
 header {
-    width: 100%;
-    height: 65px;
-    display: flex;
-    align-items: center;
-    font-family:'Shrikhand', cursive;
+  width: 100%;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  font-family: "Shrikhand", cursive;
 }
 .icn-fleche {
-    width: 10%;
-    margin-left: 25px;
+  width: 10%;
+  margin-left: 25px;
 }
 .icn-fleche > a {
-    font-size: 20px;
-    color: black;
+  font-size: 20px;
+  color: black;
 }
 .marque {
-    width: 60%;
-    padding-top: 5px;
-    text-align: center;
-    font-family:'Shrikhand', cursive;
-    font-weight: lighter;
+  width: 60%;
+  padding-top: 5px;
+  text-align: center;
+  font-family: "Shrikhand", cursive;
+  font-weight: lighter;
 }
 .image-restaurant {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
 .bgn-white {
-    margin-top: -40px;
-    position: relative;
+  margin-top: -40px;
+  position: relative;
 }
 .la-carte {
-    width: 100%;
-    border-radius: 35px 35px 0 0;
-    background-color: white;
+  width: 100%;
+  border-radius: 35px 35px 0 0;
+  background-color: white;
 }
 .nom-restaurant {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .nom-restaurant > h2 {
-    width: 80%;
-    margin-left: 20px;
-    font-family:'Shrikhand', cursive;
-    font-weight: lighter;
-    font-size: 30px;
+  width: 80%;
+  margin-left: 20px;
+  font-family: "Shrikhand", cursive;
+  font-weight: lighter;
+  font-size: 30px;
 }
 /*icn-coeur*/
 .icn-coeur {
-    margin-left: 0px;
-    font-size: 25px;
-    position:relative;
+  margin-left: 0px;
+  font-size: 25px;
+  position: relative;
 }
 .icn-fill {
-    background: linear-gradient(#FF79DA,#9356DC);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    position: absolute;
-    left: 0;
-    bottom: 3px;
-    opacity: 0;
+  background: linear-gradient(#ff79da, #9356dc);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  opacity: 0;
 }
 .icn-fill:hover {
-    opacity: 1;
-    transition: all 500ms ease-in-out;
+  opacity: 1;
+  transition: all 500ms ease-in-out;
 }
 /*item-appaer*/
 @keyframes appear {
-    0% {
-        transform: scale(0);
-    }
-    100% {
-        transform: scale(1);
-    }
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 /*Entrées*/
 .text-entrees {
-    margin-left: 20px;
-    padding-bottom: 5px;
-    border-bottom: solid 5px #99E2D0;
-    width: 45px;
-    font-family: 'Roboto', sans-serif;
+  margin-left: 20px;
+  padding-bottom: 5px;
+  border-bottom: solid 5px #99e2d0;
+  width: 45px;
+  font-family: "Roboto", sans-serif;
 }
 .entrees {
-    width: 90%;
-    height: 65px;
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    background-color: white;
-    box-shadow: 2px 2px 10px 0px #cdcdcd;
-    border-radius: 10px;
-    overflow: hidden;
-    cursor: pointer;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    animation: appear 1.5s;
-    transform-origin: bottom;
+  width: 90%;
+  height: 65px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 2px 2px 10px 0px #cdcdcd;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  animation: appear 1.5s;
+  transform-origin: bottom;
 }
 /*plats*/
 .text-plats {
-    margin-left: 20px;
-    margin-top: 30px;
-    padding-bottom: 5px;
-    border-bottom: solid 5px #99E2D0;
-    width: 45px;
-    font-family: 'Roboto', sans-serif;
+  margin-left: 20px;
+  margin-top: 30px;
+  padding-bottom: 5px;
+  border-bottom: solid 5px #99e2d0;
+  width: 45px;
+  font-family: "Roboto", sans-serif;
 }
 .plat {
-    width: 90%;
-    height: 65px;
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    background-color: white;
-    box-shadow: 2px 2px 10px 0px #cdcdcd;
-    border-radius: 10px;
-    overflow: hidden;
-    cursor: pointer;
-    font-family: 'Roboto', sans-serif;
-    animation: appear 2s;
-    transform-origin: bottom;
+  width: 90%;
+  height: 65px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 2px 2px 10px 0px #cdcdcd;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  animation: appear 2s;
+  transform-origin: bottom;
 }
 /*Desserts*/
 .text-desserts {
-    margin-left: 20px;
-    margin-top: 40px;
-    padding-bottom: 5px;
-    border-bottom: solid 5px #99E2D0;
-    width: 45px;
-    font-family: 'Roboto', sans-serif;
+  margin-left: 20px;
+  margin-top: 40px;
+  padding-bottom: 5px;
+  border-bottom: solid 5px #99e2d0;
+  width: 45px;
+  font-family: "Roboto", sans-serif;
 }
 .dessert {
-    width: 90%;
-    height: 65px;
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    background-color: white;
-    box-shadow: 2px 2px 10px 0px #cdcdcd;
-    border-radius: 10px;
-    overflow: hidden;
-    cursor: pointer;
-    font-family: 'Roboto', sans-serif;
-    animation: appear 2.5s;
-    transform-origin: bottom;
+  width: 90%;
+  height: 65px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 2px 2px 10px 0px #cdcdcd;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  animation: appear 2.5s;
+  transform-origin: bottom;
 }
-.div-un{
-    width: 100%;
-    margin-left: 10px;
-    flex-wrap: nowrap;
-    white-space: nowrap;
+.div-un {
+  width: 100%;
+  margin-left: 10px;
+  flex-wrap: nowrap;
+  white-space: nowrap;
 }
 .div-un > p {
-    width: 100%;
-    margin-top: 10px;
-    font-size: 15px;
-    overflow: hidden;
-    margin: 0;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 15px;
+  overflow: hidden;
+  margin: 0;
 }
 .div-un > h3 {
-    width: 100%;
-    font-size: 17px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-    margin: 0;
-    padding-top: 20px;
-    margin-bottom: -10px;
+  width: 100%;
+  font-size: 17px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0;
+  padding-top: 20px;
+  margin-bottom: -10px;
 }
 .div-un-p {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .div-un-p > p {
-    font-size: 15px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
+  font-size: 15px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .div-un-p > span {
-    margin-left: 15px;
-    margin-right: 20px;
-    font-size: 15px;
-    font-weight: bolder;
-    font-family: 'Roboto', sans-serif;
+  margin-left: 15px;
+  margin-right: 20px;
+  font-size: 15px;
+  font-weight: bolder;
+  font-family: "Roboto", sans-serif;
 }
 .entrees:hover {
-    padding-right: 70px;
+  padding-right: 70px;
 }
 .plat:hover {
-    padding-right: 70px;
+  padding-right: 70px;
 }
 .dessert:hover {
-    padding-right: 70px;
+  padding-right: 70px;
 }
 /*spin loader*/
-.entrees:hover .spin-loader{
-    transform: translate(-50px, 0);
-    transition: all 1s ease-in-out;
+.entrees:hover .spin-loader {
+  transform: translate(-50px, 0);
+  transition: all 1s ease-in-out;
 }
 .plat:hover .spin-loader {
-    transform: translate(-50px, 0);
-    transition: all 1s ease-in-out;
+  transform: translate(-50px, 0);
+  transition: all 1s ease-in-out;
 }
 .dessert:hover .spin-loader {
-    transform: translate(-50px, 0);
-    transition: all 1s ease-in-out;
+  transform: translate(-50px, 0);
+  transition: all 1s ease-in-out;
 }
 .spin-loader {
-    width: 70px;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: -125px;
-    border-radius: 0 10px 10px 0;
-    background-color: #99E2D0;
+  width: 70px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: -125px;
+  border-radius: 0 10px 10px 0;
+  background-color: #99e2d0;
 }
 /*icon check */
 .entrees:hover .icn-check {
-    transform: rotate(1turn);
-    transition: all 1s ease-in-out;
+  transform: rotate(1turn);
+  transition: all 1s ease-in-out;
 }
 .plat:hover .icn-check {
-    transform: rotate(1turn);
-    transition: all 1s ease-in-out;
+  transform: rotate(1turn);
+  transition: all 1s ease-in-out;
 }
 .dessert:hover .icn-check {
-    transform: rotate(1turn);
-    transition: all 1s ease-in-out;
+  transform: rotate(1turn);
+  transition: all 1s ease-in-out;
 }
 .icn-check {
-    font-size: 25px;
-    color: white;
+  font-size: 25px;
+  color: white;
 }
 /*bouton commander */
 .btn-commander {
-    width: 100%;
-    height: 60px;
-    padding-top: 25px;
-    font-family: 'Roboto', sans-serif;
+  width: 100%;
+  height: 60px;
+  padding-top: 25px;
+  font-family: "Roboto", sans-serif;
 }
 .btn-commander :hover {
-    cursor: pointer;
-    box-shadow: 0px 1px 10px 1px grey;
-    background: linear-gradient(#fda4e4,#9762d8);
+  cursor: pointer;
+  box-shadow: 0px 1px 10px 1px grey;
+  background: linear-gradient(#fda4e4, #9762d8);
 }
 .text-commander {
-    width: 65%;
-    height: 60px;
-    font-weight: lighter;
-    color: rgb(241, 241, 241);
-    background:linear-gradient(#FF79DA,#9356DC) ;
-    border-radius: 50px;
-    box-shadow: 0px 5px 10px 0px grey;
+  width: 65%;
+  height: 60px;
+  font-weight: lighter;
+  color: rgb(241, 241, 241);
+  background: linear-gradient(#ff79da, #9356dc);
+  border-radius: 50px;
+  box-shadow: 0px 5px 10px 0px grey;
 }
 /*footer*/
 footer {
-    margin-top: 50px;
-    width: 100%;
-    height: 520px;
-    background-color: rgb(46, 45, 45);
-    color: whitesmoke;
+  margin-top: 50px;
+  width: 100%;
+  height: 520px;
+  background-color: rgb(46, 45, 45);
+  color: whitesmoke;
 }
 .pied {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 .pied-ohmyfood {
-    font-size: 20px;
-    padding-top: 20px;
-    margin-bottom: -10px;
-    font-family:'Shrikhand', cursive;
+  font-size: 20px;
+  padding-top: 20px;
+  margin-bottom: -10px;
+  font-family: "Shrikhand", cursive;
 }
 /*pied proposer un restaurant*/
 .pied-proposer {
-    display: flex;
-    align-items: center;
-    margin-bottom: -20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: -20px;
 }
 .pied-proposer > i {
-    font-size: 15px;
-    margin-right: 15px;
+  font-size: 15px;
+  margin-right: 15px;
 }
 .pied-proposer > p {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 /*pied devenir un partenaire*/
 .pied-devenir {
-    display: flex;
-    align-items: center;
-    margin-bottom: -20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: -20px;
 }
 .pied-devenir > i {
-    font-size: 15px;
+  font-size: 15px;
 }
 .pied-devenir > p {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 /*pied mentions légales */
 .pied-mentions {
-    margin-bottom: -5px;
-    font-family: 'Roboto', sans-serif;
+  margin-bottom: -5px;
+  font-family: "Roboto", sans-serif;
 }
 /*pied Contact*/
 .pied-contact {
-    text-decoration: none;
-    color: white;
-    font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
 }
 /*generale
 FONT FAMILY
@@ -321,29 +321,29 @@ font-family: 'Roboto', sans-serif;
 font-family:'Shrikhand', cursive;
 */
 .center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .row {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
 }
 .between {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .around {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-@media screen and (min-width:768px)  {
-    .bgn-white {
-        margin: auto;
-        margin-top: -40px;
-        max-width: 700px;
-    }
+@media screen and (min-width: 768px) {
+  .bgn-white {
+    margin: auto;
+    margin-top: -40px;
+    max-width: 700px;
+  }
 }

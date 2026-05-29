@@ -359,12 +359,14 @@ nav {
 footer {
   margin-top: 50px;
   width: 100%;
-  height: 490px;
+  height: auto;
+  padding-bottom: 50px;
   background-color: rgb(46, 45, 45);
   color: whitesmoke;
 }
 .pied {
   margin-left: 20px;
+  margin-top: 50px;
 }
 .pied-ohmyfood {
   font-size: 20px;
